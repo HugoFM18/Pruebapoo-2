@@ -21,7 +21,7 @@ public class Main {
         orden.mostrarOrden();
 
         
-        Credito pago = new Credito(12345678, "Visa", "12/28", "Carlos");
+        Credito pago = new Credito(12345678, "Visa", "12/28", "Hugo");
 
         double total = pago.calcularTotal(20000, 2000, 3800);
 
