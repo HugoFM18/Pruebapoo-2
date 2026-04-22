@@ -4,7 +4,6 @@ public class Orden {
     private String hora;
     private String mesero;
     private Cliente cliente;
-
     private Bebida bebida;
     private Platillo platillo;
 
