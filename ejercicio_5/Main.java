@@ -5,7 +5,7 @@ public class Main {
 
         Cliente cliente = new Cliente(3);
 
-        Orden orden = new Orden("7:30 PM", "Carlos", cliente);
+        Orden orden = new Orden("7:30 PM", "Carlos", cliente, null, null);
         
         Bebida bebida = new Bebida(2, "Jugo");
         Platillo platillo = new Platillo(1, "Hamburguesa");

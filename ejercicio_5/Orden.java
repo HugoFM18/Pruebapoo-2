@@ -8,11 +8,12 @@ public class Orden {
     private Platillo platillo;
     private Pago pago;
 
-    public Orden(String hora, String mesero, Cliente cliente) {
+    public Orden(String hora, String mesero, Cliente cliente, Bebida bebida, Platillo platillo) {
         this.hora = hora;
         this.mesero = mesero;
         this.cliente = cliente;
-        this.pago = pago;
+        this.bebida = bebida;
+        this.platillo = platillo;
     }
 
     public String agregarProductos(Bebida bebida, Platillo platillo) {
