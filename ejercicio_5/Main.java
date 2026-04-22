@@ -10,8 +10,7 @@ public class Main {
         Bebida bebida = new Bebida(2, "Jugo");
         Platillo platillo = new Platillo(1, "Hamburguesa");
         
-        orden.setBebida(bebida);
-        orden.setPlatillo(platillo);
+        orden.agregarProductos(bebida, platillo);
         
         orden.mostrarOrden();
         

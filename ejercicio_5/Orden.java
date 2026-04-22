@@ -6,19 +6,19 @@ public class Orden {
     private Cliente cliente;
     private Bebida bebida;
     private Platillo platillo;
+    private Pago pago;
 
     public Orden(String hora, String mesero, Cliente cliente) {
         this.hora = hora;
         this.mesero = mesero;
         this.cliente = cliente;
+        this.pago = pago;
     }
 
-    public void setBebida(Bebida bebida) {
+    public String agregarProductos(Bebida bebida, Platillo platillo) {
         this.bebida = bebida;
-    }
-
-    public void setPlatillo(Platillo platillo) {
         this.platillo = platillo;
+        return "Productos agregados: " + bebida.getTipo() + ", " + platillo.getTipo();
     }
 
     public void mostrarOrden() {
