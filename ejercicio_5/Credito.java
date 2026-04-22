@@ -13,9 +13,14 @@ public class Credito extends Pago {
         this.nombre = nombre;
     }
 
-    public boolean hacerCargo(double total){
-        System.out.println("Pago Realizado con tarjeta: "+ total);
+    public boolean hacerCargo(double total) {
+        System.out.println("Pago Realizado con tarjeta:" );
+        System.out.println("Titular: " + nombre);
+        System.out.println("Tarjeta: " + numeroTarjeta);
+        System.out.println("Tipo: " + tipo);
+        System.out.println("Vence: " + fechaExp);
+        System.out.println("Total: " + total);
         return true;
     }
-    
+
 }
