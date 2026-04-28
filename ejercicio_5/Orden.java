@@ -6,7 +6,6 @@ public class Orden {
     private Cliente cliente;
     private Bebida bebida;
     private Platillo platillo;
-    private Pago pago;
 
     public Orden(String hora, String mesero, Cliente cliente, Bebida bebida, Platillo platillo) {
         this.hora = hora;
